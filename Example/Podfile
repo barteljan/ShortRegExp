@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ShortRexExp_Example', :exclusive => true do
+  pod 'ShortRexExp', :path => '../'
+end
+
+target 'ShortRexExp_Tests', :exclusive => true do
+  pod 'ShortRexExp', :path => '../'
+
+  
+end
