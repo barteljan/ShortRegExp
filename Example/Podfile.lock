@@ -1,0 +1,14 @@
+PODS:
+  - ShortRexExp (0.1.0)
+
+DEPENDENCIES:
+  - ShortRexExp (from `../`)
+
+EXTERNAL SOURCES:
+  ShortRexExp:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ShortRexExp: d4d9226041fa3198627a2e305228554dfa610895
+
+COCOAPODS: 0.39.0

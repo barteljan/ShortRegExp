@@ -1,0 +1,6 @@
+framework module ShortRexExp {
+  umbrella header "ShortRexExp-umbrella.h"
+
+  export *
+  module * { export * }
+}

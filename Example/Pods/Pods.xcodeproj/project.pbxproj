@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023D64FF44E14F016467BC3554F2D93E /* Pods-ShortRexExp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D09EF8DC8000D3AE08C8388B874865C /* Pods-ShortRexExp_Tests-dummy.m */; };
+		084E28C0883C1A19BB6775F4CF9F9779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		151EB58A73C8299D5D08983CC1EA5062 /* ShortRexExp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1930B71CD150027B077ACC81AA6103F /* ShortRexExp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D4BFACBA55B094A5E9E0039DF76EC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		619D4BA78CF9EB0E0A0AAC50133CDDFD /* Pods-ShortRexExp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 370A918D60ED778B948A9FF9D3C1FE20 /* Pods-ShortRexExp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EFB75A890591188B869D7331B0070C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		885B24C24A78B3EBEA0DDE8B53C5B792 /* ShortRexExp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0C982AC4BB7B0DC5BA6FA7F46F5745D /* ShortRexExp.bundle */; };
+		8F201C25DCF25D3FABB21D4E5591FF58 /* ShortRexExp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D2F82F833F19DD9FD1027A0D2DF77A /* ShortRexExp-dummy.m */; };
+		9A331A781C5F7F23009404F8 /* ShortRegExpOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A331A771C5F7F23009404F8 /* ShortRegExpOperators.swift */; };
+		DA564B0AFEB587D0156386081B00D72E /* Pods-ShortRexExp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1EC143409C64D75DAF30220E71FFA4 /* Pods-ShortRexExp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AEF1A572FBAEDC73DC160F748B46E0 /* Pods-ShortRexExp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137B3A5DBBF3A7E413456BEDE4A6A8D /* Pods-ShortRexExp_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB9774451F75029F4D6CF80639B99AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 812EC2E447357BBAA2957CDBB1827BC4;
+			remoteInfo = ShortRexExp;
+		};
+		E38D8FBA36C36238E6F2DE3784B5154E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59EF34B237E22991658EF76D7D69F07E;
+			remoteInfo = "ShortRexExp-ShortRexExp";
+		};
+		FAB69F0BAA151B269AAFB7D811ABD1F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 812EC2E447357BBAA2957CDBB1827BC4;
+			remoteInfo = ShortRexExp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065D8298882209F417A1D85015A24AEC /* Pods_ShortRexExp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortRexExp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A607A2FE7BFF4FB0AEFE987ECF2099 /* ShortRexExp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShortRexExp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3D4A647992167CEB59A02731364628 /* Pods-ShortRexExp_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShortRexExp_Example.modulemap"; sourceTree = "<group>"; };
+		2F6A7709DD7FC94F529B1D6554D29CCC /* Pods-ShortRexExp_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortRexExp_Tests-resources.sh"; sourceTree = "<group>"; };
+		3137B3A5DBBF3A7E413456BEDE4A6A8D /* Pods-ShortRexExp_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortRexExp_Example-dummy.m"; sourceTree = "<group>"; };
+		370A918D60ED778B948A9FF9D3C1FE20 /* Pods-ShortRexExp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortRexExp_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3A88FF9E4B89BABCB77315DB5C084B44 /* Pods-ShortRexExp_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortRexExp_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A839448345ABB72456D3763000AE4E0 /* Pods-ShortRexExp_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortRexExp_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4B65335EA4882EFF03FAFB1F86D6B2B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D09EF8DC8000D3AE08C8388B874865C /* Pods-ShortRexExp_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortRexExp_Tests-dummy.m"; sourceTree = "<group>"; };
+		4E152480BF14BBEAF20E9199BFFA5B4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D2F82F833F19DD9FD1027A0D2DF77A /* ShortRexExp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShortRexExp-dummy.m"; sourceTree = "<group>"; };
+		675795FA033B05C8BA691BB5309F0715 /* Pods-ShortRexExp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ShortRexExp_Tests.modulemap"; sourceTree = "<group>"; };
+		777EB2A2020707AA7873318962265008 /* Pods-ShortRexExp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortRexExp_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7F878D5CCFCC7582EDF6021BBCC5153B /* Pods-ShortRexExp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortRexExp_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9A331A771C5F7F23009404F8 /* ShortRegExpOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortRegExpOperators.swift; sourceTree = "<group>"; };
+		9F1EC143409C64D75DAF30220E71FFA4 /* Pods-ShortRexExp_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortRexExp_Example-umbrella.h"; sourceTree = "<group>"; };
+		A113DA20EFE601229C7DC3A3607F2C85 /* Pods_ShortRexExp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortRexExp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1930B71CD150027B077ACC81AA6103F /* ShortRexExp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShortRexExp-umbrella.h"; sourceTree = "<group>"; };
+		B2D52A7FF2A52EF143CD0FB680B70A28 /* ShortRexExp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShortRexExp.xcconfig; sourceTree = "<group>"; };
+		B90553326F491D83BBFBA09CC9EB7695 /* Pods-ShortRexExp_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortRexExp_Example-resources.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1A78011A80349A5CE129CBB4253B413 /* Pods-ShortRexExp_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortRexExp_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C295F3901698C204F88F7CB44BB619D6 /* Pods-ShortRexExp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortRexExp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8CE3368159B77F586C505EEC6314D36 /* ShortRexExp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ShortRexExp.modulemap; sourceTree = "<group>"; };
+		CD6BB158F13DC294CDA3A2CF82265B53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07DA8A699EE71A0C4BD60538F4BA657 /* Pods-ShortRexExp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortRexExp_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B98DF0E7E916F56EBBF9C47FA03B59 /* Pods-ShortRexExp_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortRexExp_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDEA75489BDCBA79710D0AA5DD7BEAE2 /* Pods-ShortRexExp_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortRexExp_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F0C982AC4BB7B0DC5BA6FA7F46F5745D /* ShortRexExp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortRexExp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63FCFD97BF4B11BE736356003C43830 /* Pods-ShortRexExp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortRexExp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9976ED39A8AF1F3853932B341FFF2F7 /* ShortRexExp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShortRexExp-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07188CC494DEF294632FFAEF0FABDC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFB75A890591188B869D7331B0070C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A510F4F954695454EBC0395018FA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D4BFACBA55B094A5E9E0039DF76EC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777990DD5AD6B73293E14961050D5CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBFF1A2C8FFA59CBA18AEDFD5D1B7EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084E28C0883C1A19BB6775F4CF9F9779 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		125923FDC492D0D0610476154B168312 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB2FC148DCD132015A52B1D837AFCB /* Pods-ShortRexExp_Example */,
+				14DB4DE900D447BA73DB430142BB9D26 /* Pods-ShortRexExp_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14DB4DE900D447BA73DB430142BB9D26 /* Pods-ShortRexExp_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4B65335EA4882EFF03FAFB1F86D6B2B5 /* Info.plist */,
+				675795FA033B05C8BA691BB5309F0715 /* Pods-ShortRexExp_Tests.modulemap */,
+				C1A78011A80349A5CE129CBB4253B413 /* Pods-ShortRexExp_Tests-acknowledgements.markdown */,
+				C295F3901698C204F88F7CB44BB619D6 /* Pods-ShortRexExp_Tests-acknowledgements.plist */,
+				4D09EF8DC8000D3AE08C8388B874865C /* Pods-ShortRexExp_Tests-dummy.m */,
+				4A839448345ABB72456D3763000AE4E0 /* Pods-ShortRexExp_Tests-frameworks.sh */,
+				2F6A7709DD7FC94F529B1D6554D29CCC /* Pods-ShortRexExp_Tests-resources.sh */,
+				370A918D60ED778B948A9FF9D3C1FE20 /* Pods-ShortRexExp_Tests-umbrella.h */,
+				F63FCFD97BF4B11BE736356003C43830 /* Pods-ShortRexExp_Tests.debug.xcconfig */,
+				777EB2A2020707AA7873318962265008 /* Pods-ShortRexExp_Tests.release.xcconfig */,
+			);
+			name = "Pods-ShortRexExp_Tests";
+			path = "Target Support Files/Pods-ShortRexExp_Tests";
+			sourceTree = "<group>";
+		};
+		4E1C10789212521C142A2922312F67AA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A331A771C5F7F23009404F8 /* ShortRegExpOperators.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4FA0273F07F0D639F1A318CED22B184F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E152480BF14BBEAF20E9199BFFA5B4F /* Info.plist */,
+				C8CE3368159B77F586C505EEC6314D36 /* ShortRexExp.modulemap */,
+				B2D52A7FF2A52EF143CD0FB680B70A28 /* ShortRexExp.xcconfig */,
+				61D2F82F833F19DD9FD1027A0D2DF77A /* ShortRexExp-dummy.m */,
+				F9976ED39A8AF1F3853932B341FFF2F7 /* ShortRexExp-prefix.pch */,
+				B1930B71CD150027B077ACC81AA6103F /* ShortRexExp-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ShortRexExp";
+			sourceTree = "<group>";
+		};
+		5254925CB6AD2FCBA291B269026EB752 /* ShortRexExp */ = {
+			isa = PBXGroup;
+			children = (
+				75EB4CD90780ABF01C6F15029EA2F093 /* Pod */,
+				4FA0273F07F0D639F1A318CED22B184F /* Support Files */,
+			);
+			name = ShortRexExp;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		75EB4CD90780ABF01C6F15029EA2F093 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4E1C10789212521C142A2922312F67AA /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				C5614B5A84AD3A73BF2C99F2F542D7DE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EA24BBB9220876E9D7F59B7724ADD2E8 /* Products */,
+				125923FDC492D0D0610476154B168312 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5614B5A84AD3A73BF2C99F2F542D7DE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5254925CB6AD2FCBA291B269026EB752 /* ShortRexExp */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CAFB2FC148DCD132015A52B1D837AFCB /* Pods-ShortRexExp_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CD6BB158F13DC294CDA3A2CF82265B53 /* Info.plist */,
+				2A3D4A647992167CEB59A02731364628 /* Pods-ShortRexExp_Example.modulemap */,
+				3A88FF9E4B89BABCB77315DB5C084B44 /* Pods-ShortRexExp_Example-acknowledgements.markdown */,
+				D6B98DF0E7E916F56EBBF9C47FA03B59 /* Pods-ShortRexExp_Example-acknowledgements.plist */,
+				3137B3A5DBBF3A7E413456BEDE4A6A8D /* Pods-ShortRexExp_Example-dummy.m */,
+				DDEA75489BDCBA79710D0AA5DD7BEAE2 /* Pods-ShortRexExp_Example-frameworks.sh */,
+				B90553326F491D83BBFBA09CC9EB7695 /* Pods-ShortRexExp_Example-resources.sh */,
+				9F1EC143409C64D75DAF30220E71FFA4 /* Pods-ShortRexExp_Example-umbrella.h */,
+				D07DA8A699EE71A0C4BD60538F4BA657 /* Pods-ShortRexExp_Example.debug.xcconfig */,
+				7F878D5CCFCC7582EDF6021BBCC5153B /* Pods-ShortRexExp_Example.release.xcconfig */,
+			);
+			name = "Pods-ShortRexExp_Example";
+			path = "Target Support Files/Pods-ShortRexExp_Example";
+			sourceTree = "<group>";
+		};
+		EA24BBB9220876E9D7F59B7724ADD2E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A113DA20EFE601229C7DC3A3607F2C85 /* Pods_ShortRexExp_Example.framework */,
+				065D8298882209F417A1D85015A24AEC /* Pods_ShortRexExp_Tests.framework */,
+				F0C982AC4BB7B0DC5BA6FA7F46F5745D /* ShortRexExp.bundle */,
+				25A607A2FE7BFF4FB0AEFE987ECF2099 /* ShortRexExp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		096AEA56C05AE5F0E568B4D1CCC6E880 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619D4BA78CF9EB0E0A0AAC50133CDDFD /* Pods-ShortRexExp_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07D6FCCBF968487C32C201B6C60F548 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151EB58A73C8299D5D08983CC1EA5062 /* ShortRexExp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39C613B1104230A76AE6E78C018D77A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA564B0AFEB587D0156386081B00D72E /* Pods-ShortRexExp_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0302479FFCE8A85AFEEBFF563A69A886 /* Pods-ShortRexExp_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F7EA28D4D6AB938EFDAA014E8502D3 /* Build configuration list for PBXNativeTarget "Pods-ShortRexExp_Example" */;
+			buildPhases = (
+				950FB85C946DBE992B48F16665C456FC /* Sources */,
+				ECBFF1A2C8FFA59CBA18AEDFD5D1B7EF /* Frameworks */,
+				D39C613B1104230A76AE6E78C018D77A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25D6651FE6903008AD0CAF208EEAE6AD /* PBXTargetDependency */,
+			);
+			name = "Pods-ShortRexExp_Example";
+			productName = "Pods-ShortRexExp_Example";
+			productReference = A113DA20EFE601229C7DC3A3607F2C85 /* Pods_ShortRexExp_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		10031B9C6C93D5CDCA97CFF2DFDBACD6 /* Pods-ShortRexExp_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07900E486614169F979AFA088622952B /* Build configuration list for PBXNativeTarget "Pods-ShortRexExp_Tests" */;
+			buildPhases = (
+				7CB441E3CB08D9ED7BBE61F85A408E2B /* Sources */,
+				25A510F4F954695454EBC0395018FA38 /* Frameworks */,
+				096AEA56C05AE5F0E568B4D1CCC6E880 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0BD40F3EEAB990A5CD16623C9FE3076 /* PBXTargetDependency */,
+			);
+			name = "Pods-ShortRexExp_Tests";
+			productName = "Pods-ShortRexExp_Tests";
+			productReference = 065D8298882209F417A1D85015A24AEC /* Pods_ShortRexExp_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		59EF34B237E22991658EF76D7D69F07E /* ShortRexExp-ShortRexExp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CAA1BA195D1D64D147B7F148761976B /* Build configuration list for PBXNativeTarget "ShortRexExp-ShortRexExp" */;
+			buildPhases = (
+				0EDE0670DB43641C1F365EE1CA7FB9FD /* Sources */,
+				777990DD5AD6B73293E14961050D5CA8 /* Frameworks */,
+				0A531C8302629B7BB073B89ABD97F645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShortRexExp-ShortRexExp";
+			productName = "ShortRexExp-ShortRexExp";
+			productReference = F0C982AC4BB7B0DC5BA6FA7F46F5745D /* ShortRexExp.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		812EC2E447357BBAA2957CDBB1827BC4 /* ShortRexExp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAD931D1F165EA73D88A3A976F52D38 /* Build configuration list for PBXNativeTarget "ShortRexExp" */;
+			buildPhases = (
+				BF8CD7B57BD4D0346EAEC7454CAB71D5 /* Sources */,
+				07188CC494DEF294632FFAEF0FABDC85 /* Frameworks */,
+				F2117BEF409B6A0DE7A589DD4575E6D9 /* Resources */,
+				C07D6FCCBF968487C32C201B6C60F548 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A276010AF5ED1CFFA9C6FFE87FFB5CA0 /* PBXTargetDependency */,
+			);
+			name = ShortRexExp;
+			productName = ShortRexExp;
+			productReference = 25A607A2FE7BFF4FB0AEFE987ECF2099 /* ShortRexExp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EA24BBB9220876E9D7F59B7724ADD2E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0302479FFCE8A85AFEEBFF563A69A886 /* Pods-ShortRexExp_Example */,
+				10031B9C6C93D5CDCA97CFF2DFDBACD6 /* Pods-ShortRexExp_Tests */,
+				812EC2E447357BBAA2957CDBB1827BC4 /* ShortRexExp */,
+				59EF34B237E22991658EF76D7D69F07E /* ShortRexExp-ShortRexExp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A531C8302629B7BB073B89ABD97F645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2117BEF409B6A0DE7A589DD4575E6D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885B24C24A78B3EBEA0DDE8B53C5B792 /* ShortRexExp.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EDE0670DB43641C1F365EE1CA7FB9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB441E3CB08D9ED7BBE61F85A408E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023D64FF44E14F016467BC3554F2D93E /* Pods-ShortRexExp_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950FB85C946DBE992B48F16665C456FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AEF1A572FBAEDC73DC160F748B46E0 /* Pods-ShortRexExp_Example-dummy.m in Sources */,
+				9A331A781C5F7F23009404F8 /* ShortRegExpOperators.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8CD7B57BD4D0346EAEC7454CAB71D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F201C25DCF25D3FABB21D4E5591FF58 /* ShortRexExp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25D6651FE6903008AD0CAF208EEAE6AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShortRexExp;
+			target = 812EC2E447357BBAA2957CDBB1827BC4 /* ShortRexExp */;
+			targetProxy = BB9774451F75029F4D6CF80639B99AE9 /* PBXContainerItemProxy */;
+		};
+		A276010AF5ED1CFFA9C6FFE87FFB5CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ShortRexExp-ShortRexExp";
+			target = 59EF34B237E22991658EF76D7D69F07E /* ShortRexExp-ShortRexExp */;
+			targetProxy = E38D8FBA36C36238E6F2DE3784B5154E /* PBXContainerItemProxy */;
+		};
+		C0BD40F3EEAB990A5CD16623C9FE3076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShortRexExp;
+			target = 812EC2E447357BBAA2957CDBB1827BC4 /* ShortRexExp */;
+			targetProxy = FAB69F0BAA151B269AAFB7D811ABD1F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0562E427547A31BAECC626E4A7797872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D52A7FF2A52EF143CD0FB680B70A28 /* ShortRexExp.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ShortRexExp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		86B907FA04A1A9EBE3D426DD270ECF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F878D5CCFCC7582EDF6021BBCC5153B /* Pods-ShortRexExp_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortRexExp_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortRexExp_Example/Pods-ShortRexExp_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShortRexExp_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DFF8AAB1DCA3425DAA178473604DDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 777EB2A2020707AA7873318962265008 /* Pods-ShortRexExp_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortRexExp_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortRexExp_Tests/Pods-ShortRexExp_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShortRexExp_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE68EC4751E266ED897209E1CACFB28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D52A7FF2A52EF143CD0FB680B70A28 /* ShortRexExp.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ShortRexExp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D046DD6D54C619FD1DF6987B66DCF9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63FCFD97BF4B11BE736356003C43830 /* Pods-ShortRexExp_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortRexExp_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortRexExp_Tests/Pods-ShortRexExp_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShortRexExp_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB30E8C23108A8FB7CAA51240CAE200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D52A7FF2A52EF143CD0FB680B70A28 /* ShortRexExp.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShortRexExp/ShortRexExp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShortRexExp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShortRexExp/ShortRexExp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ShortRexExp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6766FA05F9C619D5F5ED98915129EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07DA8A699EE71A0C4BD60538F4BA657 /* Pods-ShortRexExp_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortRexExp_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortRexExp_Example/Pods-ShortRexExp_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ShortRexExp_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFBA3A63C6A05A4A5510F74F335C13E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D52A7FF2A52EF143CD0FB680B70A28 /* ShortRexExp.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ShortRexExp/ShortRexExp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShortRexExp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShortRexExp/ShortRexExp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ShortRexExp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07900E486614169F979AFA088622952B /* Build configuration list for PBXNativeTarget "Pods-ShortRexExp_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D046DD6D54C619FD1DF6987B66DCF9D7 /* Debug */,
+				8DFF8AAB1DCA3425DAA178473604DDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F7EA28D4D6AB938EFDAA014E8502D3 /* Build configuration list for PBXNativeTarget "Pods-ShortRexExp_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6766FA05F9C619D5F5ED98915129EC9 /* Debug */,
+				86B907FA04A1A9EBE3D426DD270ECF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CAA1BA195D1D64D147B7F148761976B /* Build configuration list for PBXNativeTarget "ShortRexExp-ShortRexExp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0562E427547A31BAECC626E4A7797872 /* Debug */,
+				AE68EC4751E266ED897209E1CACFB28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAD931D1F165EA73D88A3A976F52D38 /* Build configuration list for PBXNativeTarget "ShortRexExp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB30E8C23108A8FB7CAA51240CAE200F /* Debug */,
+				FFBA3A63C6A05A4A5510F74F335C13E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

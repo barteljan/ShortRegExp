@@ -1,0 +1,25 @@
+{
+  "name": "ShortRexExp",
+  "version": "0.1.0",
+  "summary": "A short description of ShortRexExp.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ShortRexExp",
+  "license": "MIT",
+  "authors": {
+    "Jan Bartel": "jan.bartel@atino.net"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ShortRexExp.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ShortRexExp": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
